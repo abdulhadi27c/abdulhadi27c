@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/foodpanda.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="icon" type="gif/img/png" href="assets/images/icon-img.PNG">
+    <title>Document</title>
+</head>
+<style>
+body {
+  font-family: arial;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+}
+.div-4 h4{
+  color: #171717;
+  font-weight: normal;
+}
+.div-4 i{
+  margin-right: 6px;
+}
+.div-1 {
+  width: 1330px;
+  margin: 0 auto;
+  height: 64px;
+  position: sticky;
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+.div-2 {
+  float: left;
+  display: inline-block;
+}
+.div-3 {
+  float: right;
+}
+.div-4 {
+  display: inline-block;
+  padding: 13px 23px;
+  border-left: 1px solid #ddd;
+}
+.div-2 {
+  margin-top: 13px;
+}
+.color {
+  color: rgb(214, 12, 99);
+}
+.color h4{
+  color: rgb(214, 12, 99);
+}
+.div-4 i {
+  font-size: 20px;
+}
+
+
+.color1 {
+  color: #333;
+}
+.dim-1 {
+  margin-left: 41px;
+  height: 510px;
+  background: url('../images/a2.PNG');
+  background-repeat: no-repeat;
+}
+.dim-22 h1 {
+  font-weight: normal;
+  font-size: 38px;
+  padding-top: 100px;
+  letter-spacing: 2px;
+  padding-left: 28px;
+}
+.dim-3 {
+  margin-left: 31px;
+  width: 959px;
+  height: 95px;
+  box-shadow: 0px 0px 10px -7px;
+  margin-top: 82px;
+  background: #fff;
+}
+.dim-3 input[type=search] {
+  width: 753px;
+  height: 59px;
+  margin: 18px 15px;
+  padding-left: 15px;
+  border: 1px solid #ddd;
+}
+.nick {
+  display: inline-block;
+  background: rgb(214, 12, 99);
+  color: #fff;
+  padding: 20px 10px;
+  font-weight: bold;
+}
+
+
+
+.titleBig {
+  color: #F5F5F5;
+  font-size: 10rem;
+  padding-left: 72px;
+}
+.titleSmall {
+  display: block;
+  font-size: 2rem;
+  font-weight: 300;
+  color:#666666;
+}
+.black{
+    color: #666666;
+}
+.All {
+  margin-top: 28px;
+  margin-left: 72px;
+}
+.All img {
+  width: 280px;
+  height: 274px;
+}
+.ImageAll {
+  display: inline-block;
+  margin-right: 19px;
+}
+.ImageAll:nth-last-child(1) {
+  margin-right: 0px;
+}
+.ImageAll figcaption {
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  margin: -40px 0 0 18px;
+}
+
+
+.appPart{
+  margin-top: 190px;
+}
+.app1 {
+  height: 359px;
+  background: #D70F64;
+  color: #FFFFFF;
+  margin-top: 20px;
+  position: relative;
+}
+.app1 h2 {
+  padding-top: 75px;
+  padding-bottom: 25px;
+  padding-left: 71px;
+}
+.Text {
+  letter-spacing: 0.5px;
+  font-size: 15.5px;
+  color: #707070;
+  line-height: 25px;
+
+}
+.app1 img {
+  margin-top: 70px;
+  margin-left: 62px;
+}
+.mobileImage {
+  height: 600px;
+  width: 680px;
+  position: absolute;
+  top: -173px;
+  right: 0px;
+}
+.titlesmall {
+  display: block;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.Text1{
+  letter-spacing: 0.5px;
+  font-size: 15.5px;
+  color: #707070;
+  line-height: 25px;
+  padding-left: 71px;
+}
+.Tax{
+  letter-spacing: 0.5px;
+  font-size: 15.5px;
+  color: #707070;
+  line-height: 25px;
+  padding-left: 71px;
+}
+
+
+
+.gd-1 {
+  margin-top: 175px;
+}
+.gd-3 {
+  height: 432px;
+  background: url('../images/a9.jpg') center center;
+  background-size: cover;
+  position: relative;
+  margin-top: 24px;
+}
+.gd-4 {
+  width: 533px;
+  height: 180px;
+  background: #fff;
+  position: absolute;
+  left: 80px;
+  top: 274px;
+  padding: 34px 32px;
+  box-shadow: 0 0 19px -12px;
+}
+.dum {
+  padding-bottom: 32px;
+}
+.gd-5{
+  background: rgb(214, 12, 99);
+  color: #fff;
+  font-weight: bold;
+  margin: 38px 0 0 291px;
+  padding: 17px 72px;
+}
+
+
+
+.gd-6 {
+  padding: 205px 0 40px;
+  border-bottom: 1px solid #ddd;
+}
+.gd-6 h3 {
+  padding-bottom: 32px;
+  font-size: 18px;
+  padding-left: 80px;
+}
+.gd-6 button {
+  margin-top: 20px;
+  border: none;
+  background: #fff;
+  padding: 25px;
+  margin-left: 83px;
+}
+.Nai {
+  letter-spacing: 0.5px;
+  font-size: 15.5px;
+  color: #707070;
+  line-height: 25px;
+}
+.Nai1 {
+  letter-spacing: 0.5px;
+  font-size: 15.5px;
+  color: #707070;
+  line-height: 25px;
+  padding-left: 80px;
+}
+
+
+
+.gd-7 {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+.gd-7 h4 {
+  padding-bottom: 17px;
+}
+.location {
+  border: none;
+  padding: 16px;
+}
+.gd-7 select {
+  border: 1px solid #ddd;
+  width: 240px;
+  color: #707070;
+}
+.gd-7 input[type=email] {
+  border: 1px solid #ddd;
+  color: #707070;
+  width: 380px;
+}
+.gd-7 button {
+  border: 1px solid #ddd;
+  width: 323px;
+  background: rgb(214, 12, 99);
+  color: #fff;
+  font-weight: bold;
+}
+.scRight {
+  float: right;
+  padding-right: 74px;
+}
+.socialImg {
+  padding-bottom: 39px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 73px;
+}
+
+
+
+.gd-8 {
+  padding: 30px 0 60px;
+  font-size: 14.5px;
+  border-bottom: 1px solid #ddd;
+}
+.gd10 ul{
+  list-style: none;
+}
+.gd-10 li {
+  display: inline-block;
+  margin-left: 9px;
+  line-height: 21px;
+}
+.gd-9 {
+  padding-left: 80px;
+  width: 50%;
+  display: inline-block;
+}
+.gd-10 {
+  padding-right: 79px;
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+
+
+.delivery{
+  padding-left:80px;
+  width: 32.33%;
+  float: left;
+  margin-top: 28px;
+  margin-right: -106px;
+  margin-bottom: 59px;
+}
+.gd-11:nth-last-child(1) {
+  margin-right: 0;
+}
+.deliveryMarTop {
+  margin-top: 24px;
+}
+.deliveryInner {
+  color: #707070;
+}
+.deliveryInner p {
+  word-spacing: 4px;
+  line-height: 22px;
+}
+
+
+
+
+.dark {
+  margin-top: 217px;
+  padding-bottom: 128px;
+  border-bottom: 1px solid #ddd;
+}
+.dark ul {
+  list-style: none;
+}
+.dark1 {
+	width: 228.5px;
+	display: inline-block;
+	float: left;
+	padding-left: 80px;
+}
+.dark1 li {
+  color: rgba(214, 12, 99, 0.68);
+  margin-bottom: 4px;
+}
+.dark1 h3 {
+  margin-bottom: 25px;
+}
+.dark2 {
+  padding: 59px 0 18px 0;
+  border-bottom: 1px solid #ddd;
+}
+.dark3 {
+  height: 120px;
+}
+.dark2 ul {
+  list-style: none;
+  text-align: center;
+  color: #707070;
+}
+.dark2 li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid;
+}
+.dark2 li:nth-last-child(1) {
+  border-right: none;
+}
+
+.black00{
+  color: #666666;
+}
+.img{
+    height: 40rem;
+}
+
+.image{
+
+}
+</style>
+<body>
+    <div class="Newaz">
+        <div class="div-1">
+            <div class="div-2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCrkLOFoBQcrjQoIaRPtxgwRBQbZaGUZm5pQ&s"width="115px">
+            </div>
+            <div class="div-3">
+                <div class="div-4">
+                    <h4>
+                        EN
+                    </h4>
+                </div>
+                <div class="div-4 color">
+                    <i class="far fa-user"></i>
+                    <h4 style="font-weight:normal; display: inline-block;;">LOGIN</h4> 
+                </div>
+                <div class="div-4 color">
+                    <i class="far fa-clipboard"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="img">
+      <img src="https://images.deliveryhero.io/image/foodpanda/homepage/refresh-hero-home-pk.png">
+    </div>
+    
+    <div class="dim-1">
+        <div class="dim-2 dim-22">
+           <h1 class="color1">It's the food you love, delivered</h1>
+            <div class="dim-3">
+                <input type="search" placeholder="Enter your area (e.q Banani, Dhaka)">
+                <div class="nick">
+                    FIND RESTAURENT
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="dim-5">
+        <div class="city">
+            <h2 class="titleBig">Cities
+              <span class="black titleSmall">Find us in your city</span>
+            </h2>
+          </div>
+
+          <div class="All">
+            <div class="ImageAll">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ368cijnvrwaBuOY8fKsD6fXj0K0V4VxHWcQ&s">
+                <figcaption>karachi</figcaption>
+            </div>
+            <div class="ImageAll">
+                <img src="https://media.istockphoto.com/id/1167505769/photo/minar-e-pakistan-symbol-of-pakistan.jpg?s=612x612&w=0&k=20&c=PfCyM-w34h9Exm7hUK1c78-vdOIzNT2JpjsJ7muDRdA=">
+                <figcaption>lahore</figcaption>
+            </div>
+            <div class="ImageAll">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Faisal_Mosque%2C_Shah_Faisal_Ave%2C_E-8%2C_Islamabad%2C_Islamabad_Capital_Territory_44000.jpg/2560px-Faisal_Mosque%2C_Shah_Faisal_Ave%2C_E-8%2C_Islamabad%2C_Islamabad_Capital_Territory_44000.jpg">
+                <figcaption>Islamabad</figcaption>
+            </div>
+            <div class="ImageAll">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/17/2b/10/72/khyber-gate.jpg">
+                <figcaption>K.P.K</figcaption>
+            </div>
+          </div>
+    </div>
+
+
+
+
+    <div class="appPart">
+        <div class="dim-5">
+            <h2 class="titleBig">App
+                <span class="blackColor titleSmall">Put us in your pocket</span>
+              </h2>
+        </div>
+      </div>
+  
+      <div class="app1">
+          <div class="app2">
+              <div>
+                <h2 class="titlesmall">Download the food you love</h2>
+                <span class="Tax" style="color: #fff;">It's all at your fingertips -- the restaurants you love. Find the right food to suit
+                    </span>
+                   
+              </div>
+              <span class="Text1" style="color: #fff;"> mood, and make the first bite last. Go ahead, download us.</span>
+              <div class="image">
+                <img src="https://i.pinimg.com/736x/b2/a3/5a/b2a35a8e210e60b9436ec3be65012fa7.jpg"  height="60px">
+                <img src="https://i.pinimg.com/736x/28/70/af/2870afd2007cba490330aa6a0785f295.jpg" height="60px">
+              </div>
+          </div>
+          <img class="mobileImage" src="https://github.com/shahnewaz171/FoodPanda/blob/master/assets/images/a8.png?raw=true"
+      </div>
+
+
+
+      <div class="gd-1">
+            <div class="gd-2">
+                <h2 class="titleBig">Office
+                    <span class="black titleSmall">Take your office out to lunch</span>
+                  </h2>
+                  <img src="https://raw.githubusercontent.com/shahnewaz171/FoodPanda/d3d54a473dce384c771b4b27efba844586b45121/assets/images/a9.jpg" height="900px"
+            </div>
+          </div>
+    
+          <div class="gd-3">
+            <div class="gd-4">
+                <span class="black titleSmall dum">foodpanda for business</span>
+                <span class="Text" style="color: #707070;">Order lunch, fuel for meetings or late-night deliveries to the office.<br>
+                   Your favorite restaurants coming to a desk near you.</span>
+                <div class="gd-5">GET STARTED</div>
+            </div>
+          </div>
+
+
+          <div class="gd-2 gd-6">
+             <h3 class="black">Order food from the best restaurants with foodpanda Bangladesh</h3>
+                <span class="Nai1">Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your home or office? Then foodpanda Bangladesh is</span><br>
+                <span class="Nai1">the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and local favourites near you to help satisfy your hunger</span><br> 
+                <span class="Nai1">through our online food delivery service. Cuisines are diverse: whether you fancy a juicy burger from Takeout, fresh sushi from Samdado or peri peri chicken</span><br>
+                <span class="Nai1">from Nando's, foodpanda Bangladesh has a wide range of 2000+ restaurants available from Dhaka, to Chittagong through to Sylhet. From a healthy lunch to</span><br>
+                <span class="Nai1">evening snacks to a hearty dinner, foodpanda provides you with the means to satisfy your cravings throughout the day. Sit back and relax - let foodpanda</span><br>
+
+                <button class="Nai">Click Here to Read More</button>
+              </div>
+
+
+
+        <div class="gd-7 gd-2">
+            <span class="Text">Want vouchers and the latest news from our restaurants?</span>
+            <h4 class="black">GET OUR WEEKLY EMAIL:</h4>
+            <div>
+                <select class="location">
+                    <option>City</option>
+                    <option>DHAKA</option>
+                    <option>CHITTAGONG</option>
+                    <option>SYLHET</option>
+                    <option>COX'SBAZAR</option>
+                    </select> &nbsp;
+                    <input class="location" type="email" placeholder="Email"> &nbsp;
+                    <button class="location">SING UP NOW</button>
+            </div>
+        </div>
+        <div class="gd-2 socialImg">
+            <img src="https://raw.githubusercontent.com/shahnewaz171/FoodPanda/d3d54a473dce384c771b4b27efba844586b45121/assets/images/b1.PNG" height="60px" alt="">
+            <img class="scRight" src="https://raw.githubusercontent.com/shahnewaz171/FoodPanda/d3d54a473dce384c771b4b27efba844586b45121/assets/images/b2.PNG" height="60px" alt="">
+        </div> 
+        
+        
+
+
+        <div class="gd-2 gd-8 black">
+            <div class="gd-9">
+                <p>&copy; 2019 foodpanda</p>
+            </div>
+          <div class="gd-10">
+            <ul>
+                <li>Press</li>
+                <li>Help center</li>
+                <li>Terms and conditions</li>
+                <li>Privacy policy</li>
+                <li>Security</li>
+                <li>Partner With us</li>
+                <li>How foodpanda works</li>
+                <li>Download foodpanda apps</li>
+                <li>Careers</li>
+                <li>Corporate Customer</li>
+                <li>foodpanda Deals</li>
+            </ul>
+           </div>
+        </div> 
+        
+        
+
+
+        <div class="gd-2">
+            <div class="delivery">
+              <div class="deliveryInner">
+                <h4>FOOD DELIVERY IN DHAKA</h4>
+                <p>Takeout-Banani, Pizza Guy, Shawarma Street ,<br>Coffeelicious Coffee-Baily Road, Time Out.</p>
+              </div>
+              <div class="deliveryInner deliveryMarTop">
+                <h4>FOOD DELIVERY IN CHITTAGONG</h4>
+                <p>Barcode Cafe, Muno Cafe Bistro, Afghan Restaurant ,<br>Burgwich Town Fusion Cafe, Sadia's Kitchen.</p>
+              </div>
+            </div>
+            <div class="delivery">
+                <div class="deliveryInner">
+                  <h4>FOOD DELIVERY IN SYLHET</h4>
+                  <p>Shawarma House-Sylhet , Hot Spot, Woondaal King<br>Kebab, Panshi Restaurant, Chick Chicken, Bhujon Bari.</p>
+                </div>
+                <div class="deliveryInner deliveryMarTop">
+                  <h4>PIZZA DELIVERY IN DHAKA</h4>
+                  <p>Cafe La Vista , Food Lounge, Chick Chicken, Shawarma<br>House, Hot Spot.</p>
+                </div>
+                </div>
+                <div class="delivery">
+                  <div class="deliveryInner">
+                    <h4>CHINESE FOOD DELIVERY IN DHAKA</h4>
+                    <p>Royal Kitchen, Kebabish Original, Eatopia, Rainbow<br>Chinese, Nirvana Inn,</p>
+                  </div>
+                <div class="deliveryInner deliveryMarTop">
+                    <h4>BECOME A RIDER</h4>
+                    <p>Apply Here</p>
+                </div>
+                </div>
+              </div> <br>    
+
+
+
+        <div class="gd-2 dark">
+            <div class="black00">
+                <h4>Popular Cuisines</h4>
+            </div>
+            
+            <div class="dark1">
+                <ul>
+                    <li>American</li>
+                    <li>Bakery & Cake</li>
+                    <li>Burger</li>
+                    <li>Chinese</li>
+                    <li>Dessert</li>
+                </ul>
+            </div>
+            <div class="dark1">
+                <ul>
+                    <li>Fast food</li>
+                    <li>Healthy food</li>
+                    <li>Italian</li>
+                    <li>Indian</li>
+                    <li>Japanese</li>
+                </ul>
+            </div>
+              <div class="dark1">
+                <ul>
+                    <li>Korean</li>
+                    <li>Mexican</li>
+                    <li>Middle East</li>
+                    <li>Pizza</li>
+                    <li>Seafood</li>
+                </ul>
+              </div>
+              <div class="dark1">
+                <ul>
+                    <li>Thai</li>
+                    <li>Vegetarian</li>
+                    <li>Western</li>
+                </ul>
+              </div>
+        </div>
+            
+        <div class="dark2 gd-2">
+            <ul>
+                <li>Bulgeria</li>
+                <li>Romania</li>
+                <li>Hong Kong</li>
+                <li>Pakistan</li>
+                <li>Singapore</li>
+                <li>Malaysia</li>
+                <li>Phillipains</li>
+                <li>Thailand</li>
+                <li>Taiwan</li>
+            </ul>
+        </div>
+            
+        <div class="dark3">
+            
+        </div>
+</body>
+</html>
